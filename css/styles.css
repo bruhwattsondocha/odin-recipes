@@ -1,0 +1,73 @@
+* {
+    background-color: antiquewhite;
+
+
+}
+
+.header{
+    text-decoration: underline 6px;
+    font-size: 120px;
+    margin-top: 0;
+    text-align: center;
+}
+.header.pork,
+.header.avocado,
+.header.kimchi {
+    font-size: 50px;
+    text-decoration: none;
+    background-color: rgba(220, 20, 60, 0.486);
+    width: 600px;
+    margin: auto;
+}
+.header.index {
+    text-transform: uppercase;
+}
+
+a.home-link {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: darkred;
+    background-color: rgba(250, 120, 13, 0.5);
+    position: relative;;
+    margin: auto;
+}
+
+.description {
+    width: 800px;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+}
+
+.container  {
+    text-align: center;
+
+}
+.left,
+.center,
+.right {
+    padding: 35px;
+}
+
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.ingredients {
+    list-style: none;
+    font-size: 30px;
+    width: 300px;
+    margin: auto;
+    text-align: start;
+}
+
+.steps {
+    text-align: start;
+    margin: auto;
+    font-size: 30px;
+    width: 600px;
+    position: relative;
+}
