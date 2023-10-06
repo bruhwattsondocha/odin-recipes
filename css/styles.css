@@ -1,6 +1,5 @@
 * {
-    background-color: antiquewhite;
-
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -8,66 +7,116 @@
     text-decoration: underline 6px;
     font-size: 120px;
     margin-top: 0;
-    text-align: center;
+    text-align: center;    
 }
+
 .header.pork,
 .header.avocado,
 .header.kimchi {
     font-size: 50px;
     text-decoration: none;
-    background-color: rgba(220, 20, 60, 0.486);
-    width: 600px;
-    margin: auto;
+    width: 100vw;
+    background-color: #b83636bb;
+    margin: -10px -10px;
+    height: 70px;
+    padding: 10px;
+    color: white;
+ 
 }
 .header.index {
     text-transform: uppercase;
+    color: rgba(238, 238, 238, 0.938);
+    text-decoration-color: rgba(247, 247, 247, 0.842);  
 }
 
 a.home-link {
     font-size: 40px;
     text-transform: uppercase;
     text-decoration: none;
-    color: darkred;
-    background-color: rgba(250, 120, 13, 0.5);
-    position: relative;;
-    margin: auto;
+    width: 5em;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(143, 14, 14, 0.747);
+    display: block;
+    margin: 50px auto;
+    border: rgba(65, 11, 11, 0.384) 3px solid;
 }
 
 .description {
     width: 800px;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     margin: auto;
 }
 
 .container  {
+    margin-top: -85vh;
+    width: 100vw;
+    padding: 0;
+    height: 512px;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: space-around;
 
 }
-.left,
-.center,
-.right {
-    padding: 35px;
-}
-
 
 h2 {
     font-size: 36px;
-    text-align: center;
+    text-align: start;
+    margin-left: 5vw;
 }
 
 .ingredients {
-    list-style: none;
-    font-size: 30px;
-    width: 300px;
+    font-size: 20px;
+    width: 600px;
     margin: auto;
+    padding: 0 10px 0 0;
     text-align: start;
+
 }
 
 .steps {
-    text-align: start;
-    margin: auto;
-    font-size: 30px;
+    font-size: 20px;
     width: 600px;
-    position: relative;
+    margin: auto;
+    padding: 0 10px 0 0;
+    text-align: start;
+}
+
+.foodimage {
+    width: 512px;
+    display: flex;
+    margin: 25px auto;
+    justify-content: space-around;
+
+}
+
+.main {
+
+    width: 50vw;
+    margin: auto 20vw;
+}
+
+.underheader {
+    margin: -25px -25px 50px -25px;
+    background-color: rgba(0, 0, 0, 0.808);
+    background: linear-gradient(to bottom, #b83636bb, #000000c2);
+    padding-bottom: 20px;
+}
+
+.underheader .description{
+    color: white;
+    background-color: #d3595900;
+    
+}
+
+.index {
+    background-color: rgba(0, 0, 0, 0.808);
+    background: linear-gradient(to bottom, #b83636bb, #000000c2  );
+    width: 100vw;
+    height: 99vh;
+}
+.indexall {
+    margin:  -15px;
 }
