@@ -51,9 +51,10 @@ a.home-link {
 
 .container  {
     margin-top: -85vh;
-    width: 100vw;
+    width: 1789px;
     padding: 0;
     height: 512px;
+    margin-left: 64px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
     display: flex;
@@ -119,4 +120,20 @@ h2 {
 }
 .indexall {
     margin:  -15px;
+}
+
+.inline-links {
+    display: flex;
+    text-align: center;
+    margin: 170px;
+    margin-top: 20px;
+    width: 1500px;
+    justify-content: space-between;
+}
+
+.inline-links a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: start;
 }
