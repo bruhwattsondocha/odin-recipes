@@ -57,8 +57,8 @@ a.home-link {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
-
 
 .container img {
     width: 70%;
