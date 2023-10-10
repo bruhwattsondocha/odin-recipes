@@ -1,6 +1,14 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
+html {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: inherit;
 }
 
 .header{
@@ -48,21 +56,58 @@ a.home-link {
     font-size: 25px;
     margin: auto;
 }
-
+/* INDEX */
 .container  {
     margin-top: -85vh;
-    width: 1789px;
-    padding: 0;
-    height: 512px;
-    margin-left: 64px;
-    text-align: center;
     background-color: rgba(0, 0, 0, 0);
     display: flex;
-    justify-content: space-around;
+    width: 80vw;
+    margin-left: 10vw;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+    justify-content: space-between;
+}
+.container img {
+    width: 450px;
+}
 
+@media screen and (orientation: portrait) {
+    .container img {
+        width: 90vw;
+        }
+}
+
+@media screen and (orientation: portrait) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+.inline-links {
+    display: flex; 
+    width: 80vw;
+    margin-left: 10vw;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+@media screen and (orientation: portrait) {
+    .inline-links {
+        display: none;
+        }
+}
+.inline-links a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+    display: flex;
 }
 
 h2 {
+
     font-size: 36px;
     text-align: start;
     margin-left: 5vw;
@@ -118,22 +163,4 @@ h2 {
     width: 100vw;
     height: 99vh;
 }
-.indexall {
-    margin:  -15px;
-}
 
-.inline-links {
-    display: flex;
-    text-align: center;
-    margin: 170px;
-    margin-top: 20px;
-    width: 1500px;
-    justify-content: space-between;
-}
-
-.inline-links a {
-    color: white;
-    text-transform: uppercase;
-    font-size: 36px;
-    text-align: start;
-}
