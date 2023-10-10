@@ -56,13 +56,17 @@ a.home-link {
     background-color: rgba(0, 0, 0, 0);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    outline: red 2px solid;
 }
 
-.container img {
+.container  img {
     width: 70%;
 }
+.container > img {
+    flex: 1 1 100%;
+}
+
 
 h2 {
     font-size: 36px;
