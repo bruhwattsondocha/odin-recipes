@@ -13,7 +13,7 @@ html {
 }
 /* HEADER */
 .header-container {
-    background: linear-gradient(to bottom, #b83636bb, #000000c2);
+    background-color: rgba(0, 0, 0, 0.808);
     max-height: 200vh;
     min-height: 100vh;
 }
