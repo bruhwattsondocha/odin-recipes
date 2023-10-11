@@ -134,6 +134,22 @@ h2 {
     margin: auto 20vw;
 }
 
+@media screen and (orientation:portrait) {
+    .main {
+        width: 100vw;
+        margin: 0;
+    }
+    .ingredients,
+    .steps {
+        font-size: 150%;
+        width: 80%;
+    }
+    h2 {
+        font-size: 300%;
+        margin: 50px;
+    }
+}
+
 
 
 .underheader .description{
