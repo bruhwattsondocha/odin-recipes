@@ -74,10 +74,11 @@ html {
 
 
 h2 {
-
     font-size: 36px;
     text-align: start;
-    margin-left: 5vw;
+    color: #fff;
+    margin: 0 0 20px 6vw;
+    background-color: rgba(0, 0, 0, 0.554);
 }
 
 .ingredients {
@@ -105,7 +106,7 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     gap: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .foodimage {
     margin: 25px auto;
@@ -114,6 +115,9 @@ h2 {
     justify-content: flex-end;
 }
 
+.foodimage img {
+    width: 450px;
+}
 .container-description {
     display: flex;
     flex: 3;
@@ -129,7 +133,7 @@ h2 {
 }
 
 .main {
-    width: 50vw;
+    width: 60vw;
     margin: auto 20vw;
 }
 
@@ -170,7 +174,7 @@ ul li::before {
         width: 1em; /* Also needed for space (tweak if needed) */
         margin-left: -1em; /* Also needed for space (tweak if needed) */
       }
-      
+
       
 
 
