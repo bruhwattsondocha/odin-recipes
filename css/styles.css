@@ -199,10 +199,12 @@ ul li::before {
 
 .steps li {
     line-height: 1.5rem;
+    margin: 10px;
 }      
 
 .ingredients li {
     line-height: 1.5rem;
+    margin: 10px;
 }
 
 
