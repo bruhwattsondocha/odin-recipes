@@ -2,3 +2,8 @@ html {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.food-image {
+    width: 500px;
+    height: auto;
+}
