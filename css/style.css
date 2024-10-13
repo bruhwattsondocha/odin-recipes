@@ -21,3 +21,8 @@ html {
     list-style: none;
     line-height: 1.5em;
 }
+
+.index.list *:hover {
+    color: rgb(179, 73, 73);
+    transition: .1s;
+}
