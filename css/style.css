@@ -8,6 +8,10 @@ html {
     height: auto;
 }
 
+.container {
+    width: 60vw;
+    margin: 0 auto;
+}
 .index.title {
     font-size: 60px;
 }
