@@ -16,3 +16,8 @@ html {
     border-radius: 6px;
 }
 
+.index.list * {
+    color: black;
+    list-style: none;
+    line-height: 1.5em;
+}
