@@ -7,3 +7,12 @@ html {
     width: 500px;
     height: auto;
 }
+
+.index.list {
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: #a091910d;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
