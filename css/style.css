@@ -12,8 +12,12 @@ html {
     width: 60vw;
     margin: 0 auto;
 }
-.index.title {
+.title {
     font-size: 80px;
+    width: fit-content;
+    background-image: linear-gradient(to right, black, rgb(88, 15, 15));
+    background-clip: text;
+    color: transparent;
 }
 
 .index.list {
