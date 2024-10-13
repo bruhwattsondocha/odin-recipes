@@ -8,6 +8,10 @@ html {
     height: auto;
 }
 
+.index.title {
+    font-size: 60px;
+}
+
 .index.list {
     width: fit-content;
     padding: 10px 20px;
